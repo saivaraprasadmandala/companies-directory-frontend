@@ -304,7 +304,6 @@ const response = await fetch(`/api/companies?search=${query}&industry=${industry
 * Favorites/bookmarks
 * Export to CSV
 * Advanced search
-* Infinite scroll
 * Real-time updates
 
 ---

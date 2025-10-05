@@ -12,9 +12,9 @@ This project is a **Next.js 15 (React) based frontend application** developed as
 
 The application displays a directory of companies with powerful filtering, sorting, pagination, and dual view modes (grid and table). It is designed with **scalability, performance, and user experience** in mind, making it production-ready and easy to integrate with real APIs.
 
-**Live Demo:** [https://your-vercel-app-url.vercel.app](https://your-vercel-app-url.vercel.app)
+**Live Demo:** [https://companies-directory-frontend.vercel.app/](https://companies-directory-frontend.vercel.app/)
 
-**Repository:** [https://github.com/your-username/companies-directory](https://github.com/your-username/companies-directory)
+**Repository:** [https://github.com/saivaraprasadmandala/companies-directory-frontend](https://github.com/saivaraprasadmandala/companies-directory-frontend)
 
 ---
 
@@ -146,7 +146,7 @@ companies-directory/
 
 This project is deployed on **Vercel** with CI/CD for instant updates.
 
-**Live URL:** [https://your-vercel-app-url.vercel.app](https://your-vercel-app-url.vercel.app)
+**Live URL:** [https://companies-directory-frontend.vercel.app/](https://companies-directory-frontend.vercel.app/)
 
 ---
 
@@ -167,7 +167,6 @@ Covers:
 ## 📑 Documentation
 
 * [PROJECT_OVERVIEW.md](./PROJECT_OVERVIEW.md) – Detailed architecture & design decisions
-* [SETUP_GUIDE.md](./SETUP_GUIDE.md) – Setup & usage instructions
 
 ---
 
@@ -193,12 +192,10 @@ Covers:
 
 ## 📬 Contact
 
-* **Email:** [[mandalasaivaraprasad@gmail.com](mailto:mandalasaivaraprasad@gmail.com)]
+* **Email:** [mandalasaivaraprasad@gmail.com](mailto:mandalasaivaraprasad@gmail.com)
 * **GitHub:** [saivaraprasadmandala](https://github.com/saivaraprasadmandala)
 * **LinkedIn:** [saivaraprasadmandala](https://linkedin.com/in/saivaraprasadmandala)
 
 ---
 
 ✨ *Thank you for reviewing my submission!*
-
- ✨*Built with Next.js, TypeScript, and Tailwind CSS*
