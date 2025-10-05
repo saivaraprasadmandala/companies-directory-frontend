@@ -1,6 +1,7 @@
 # Companies Directory – Frontend Development
 
 **Technical Assessment Submission**
+
 Frontend Developer Role | Frontlines Media
 
 ---
@@ -12,6 +13,7 @@ This project is a **Next.js 15 (React) based frontend application** developed as
 The application displays a directory of companies with powerful filtering, sorting, pagination, and dual view modes (grid and table). It is designed with **scalability, performance, and user experience** in mind, making it production-ready and easy to integrate with real APIs.
 
 **Live Demo:** [https://your-vercel-app-url.vercel.app](https://your-vercel-app-url.vercel.app)
+
 **Repository:** [https://github.com/your-username/companies-directory](https://github.com/your-username/companies-directory)
 
 ---
@@ -80,8 +82,8 @@ The application displays a directory of companies with powerful filtering, sorti
 
 ```bash
 # Clone repo
-git clone https://github.com/your-username/companies-directory.git
-cd companies-directory
+git clone https://github.com/saivaraprasadmandala/companies-directory-frontend
+cd companies-directory-frontend
 
 # Install dependencies
 npm install
@@ -172,24 +174,31 @@ Covers:
 ## 📌 Submission Details
 
 **Candidate:** Sai Vara Prasad Mandala
+
 **Submission Date:** October 6, 2025
+
 **Deadline:** October 6, 2025 – 05:00 PM
 
 ✅ GitHub Repo with complete source code
+
 ✅ Vercel Live Deployment
+
 ✅ README with project overview
+
 ✅ Video Walkthrough
+
 ✅ Core + Bonus Features implemented
 
 ---
 
 ## 📬 Contact
 
-* **Email:** [[your-email@example.com](mailto:your-email@example.com)]
-* **GitHub:** [your-github-username](https://github.com/your-github-username)
-* **LinkedIn:** [your-linkedin-profile](https://linkedin.com/in/your-linkedin-profile)
+* **Email:** [[mandalasaivaraprasad@gmail.com](mailto:mandalasaivaraprasad@gmail.com)]
+* **GitHub:** [saivaraprasadmandala](https://github.com/saivaraprasadmandala)
+* **LinkedIn:** [saivaraprasadmandala](https://linkedin.com/in/saivaraprasadmandala)
 
 ---
 
-✨ *Thank you for reviewing my submission!* ✨
-*Built with Next.js, TypeScript, and Tailwind CSS*
+✨ *Thank you for reviewing my submission!*
+
+ ✨*Built with Next.js, TypeScript, and Tailwind CSS*
