@@ -10,7 +10,6 @@ import { Suspense } from "react"
 export const metadata: Metadata = {
   title: "Companies Directory - Discover Leading Companies",
   description: "Browse and filter through a comprehensive directory of leading companies across various industries",
-  generator: "v0.app",
 }
 
 /**

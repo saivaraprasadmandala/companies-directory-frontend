@@ -1,36 +1,195 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Companies Directory – Frontend Development
 
-## Getting Started
+**Technical Assessment Submission**
+Frontend Developer Role | Frontlines Media
 
-First, run the development server:
+---
+
+## Project Overview
+
+This project is a **Next.js 15 (React) based frontend application** developed as part of the **technical assessment for the Frontend Developer position at Frontlines Media**.
+
+The application displays a directory of companies with powerful filtering, sorting, pagination, and dual view modes (grid and table). It is designed with **scalability, performance, and user experience** in mind, making it production-ready and easy to integrate with real APIs.
+
+**Live Demo:** [https://your-vercel-app-url.vercel.app](https://your-vercel-app-url.vercel.app)
+**Repository:** [https://github.com/your-username/companies-directory](https://github.com/your-username/companies-directory)
+
+---
+
+## ✅ Requirements Checklist
+
+### Core Features
+
+* **Responsive UI** – Built with Next.js 15 & React
+* **Company Display** – Toggle between grid and table view
+* **Filter Controls** – Search by name, filter by industry and location
+* **Loading & Error States** – Skeleton loaders and error messages
+* **State Management** – Custom React hooks (`useCompanies`, `usePagination`)
+* **API Integration** – Mock data with service layer abstraction
+
+### Bonus Features
+
+* **Pagination** – Navigate company results page-by-page
+* **Sorting Options** – Sort by name, employee count, and founded year
+* **UI Library** – Tailwind CSS v4 + shadcn/ui for polished UI
+
+---
+
+## 🌟 Features
+
+### User Experience
+
+* **Dual View Modes** – Grid cards & table layout
+* **Advanced Search** – Real-time company name search
+* **Multi-Filter System** – Filter by industry & city
+* **Sorting Controls** – By name, employees, and founding year
+* **Responsive Design** – Optimized for desktop, tablet, and mobile
+
+### Technical Highlights
+
+* **TypeScript First** – Type-safe, strongly typed components and state
+* **Reusable Hooks** – Encapsulated filtering, sorting, and pagination logic
+* **Service Layer** – API abstraction for easy backend integration
+* **Performance Optimizations** – Memoization with `useMemo`, `useCallback`
+* **Clean Architecture** – Modular, scalable, and production-ready
+
+---
+
+## 🛠️ Tech Stack
+
+| Category           | Technology                                 |
+| ------------------ | ------------------------------------------ |
+| **Framework**      | Next.js 15 (App Router)                    |
+| **Language**       | TypeScript                                 |
+| **Styling**        | Tailwind CSS v4                            |
+| **UI Components**  | shadcn/ui                                  |
+| **Icons**          | Lucide React                               |
+| **State Handling** | Custom React Hooks                         |
+| **Data**           | Mock JSON (Indian companies, INR currency) |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js **18.17+**
+* npm, yarn, or pnpm
+
+### Setup
 
 ```bash
+# Clone repo
+git clone https://github.com/your-username/companies-directory.git
+cd companies-directory
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev      # Start local dev server
+npm run build    # Build for production
+npm run start    # Run production build
+npm run lint     # Run ESLint checks
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+companies-directory/
+├── app/
+│   ├── layout.tsx              # Root layout
+│   ├── page.tsx                # Main page
+│   └── globals.css             # Global styles
+├── components/
+│   ├── companies/              # Company UI components
+│   ├── filters/                # Search & filter controls
+│   └── ui/                     # shadcn/ui components
+├── hooks/
+│   ├── use-companies.ts        # Filtering, sorting, state logic
+│   └── use-pagination.ts       # Pagination logic
+├── services/
+│   └── company-service.ts      # API abstraction layer
+├── lib/
+│   ├── constants.ts            # Global constants
+│   └── data/companies.ts       # Mock company dataset
+└── types/
+    ├── company.ts              # Company type definitions
+    └── filters.ts              # Filter/sort type definitions
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔑 Key Design Decisions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Custom Hooks** – Business logic separated for reusability and clarity
+* **Service Layer** – Future-proofed to easily switch mock data with real APIs
+* **Responsive First** – Tailwind breakpoints ensure seamless device support
+* **Error & Empty States** – Better UX with user-friendly messages
+* **Type Safety** – Strong TypeScript types prevent runtime errors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📦 Deployment
+
+This project is deployed on **Vercel** with CI/CD for instant updates.
+
+**Live URL:** [https://your-vercel-app-url.vercel.app](https://your-vercel-app-url.vercel.app)
+
+---
+
+## 🎥 Video Walkthrough
+
+**Duration:** ~3 minutes
+
+Covers:
+
+1. Full feature demo (search, filter, sort, pagination, grid/table toggle)
+2. Code structure and logic overview
+3. Key technical choices explained
+
+**Video Link:** [Insert video link]
+
+---
+
+## 📑 Documentation
+
+* [PROJECT_OVERVIEW.md](./PROJECT_OVERVIEW.md) – Detailed architecture & design decisions
+* [SETUP_GUIDE.md](./SETUP_GUIDE.md) – Setup & usage instructions
+
+---
+
+## 📌 Submission Details
+
+**Candidate:** Sai Vara Prasad Mandala
+**Submission Date:** October 6, 2025
+**Deadline:** October 6, 2025 – 05:00 PM
+
+✅ GitHub Repo with complete source code
+✅ Vercel Live Deployment
+✅ README with project overview
+✅ Video Walkthrough
+✅ Core + Bonus Features implemented
+
+---
+
+## 📬 Contact
+
+* **Email:** [[your-email@example.com](mailto:your-email@example.com)]
+* **GitHub:** [your-github-username](https://github.com/your-github-username)
+* **LinkedIn:** [your-linkedin-profile](https://linkedin.com/in/your-linkedin-profile)
+
+---
+
+✨ *Thank you for reviewing my submission!* ✨
+*Built with Next.js, TypeScript, and Tailwind CSS*
