@@ -2,8 +2,6 @@
 
 ## Architecture
 
-### System Design
-
 ```
 User Interface (React Components)
          ↓

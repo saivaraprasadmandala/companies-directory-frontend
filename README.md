@@ -12,7 +12,9 @@ This project is a **Next.js 15 (React) based frontend application** developed as
 
 The application displays a directory of companies with powerful filtering, sorting, pagination, and dual view modes (grid and table). It is designed with **scalability, performance, and user experience** in mind, making it production-ready and easy to integrate with real APIs.
 
-**Live Demo:** [https://companies-directory-frontend.vercel.app/](https://companies-directory-frontend.vercel.app/)
+**Live Demo :** [Loom Recording Link](https://www.loom.com/share/9debe20435e6453ca822a59b1898424f?sid=c24cb5d5-5db5-4a4d-a21f-25667d89bb35)
+
+**Deployed Link :** [https://companies-directory-frontend.vercel.app/](https://companies-directory-frontend.vercel.app/)
 
 **Repository:** [https://github.com/saivaraprasadmandala/companies-directory-frontend](https://github.com/saivaraprasadmandala/companies-directory-frontend)
 
@@ -144,7 +146,7 @@ companies-directory/
 
 ## 📦 Deployment
 
-This project is deployed on **Vercel** with CI/CD for instant updates.
+This project is deployed on **Vercel**
 
 **Live URL:** [https://companies-directory-frontend.vercel.app/](https://companies-directory-frontend.vercel.app/)
 
@@ -160,13 +162,13 @@ Covers:
 2. Code structure and logic overview
 3. Key technical choices explained
 
-**Video Link:** [Insert video link]
+**Video Link:** [Loom Recording Link](https://www.loom.com/share/9debe20435e6453ca822a59b1898424f?sid=c24cb5d5-5db5-4a4d-a21f-25667d89bb35)
 
 ---
 
 ## 📑 Documentation
 
-* [PROJECT_OVERVIEW.md](./PROJECT_OVERVIEW.md) – Detailed architecture & design decisions
+* [Project_Overview.md](./Project_Overview.md) – Detailed architecture & design decisions
 
 ---
 
